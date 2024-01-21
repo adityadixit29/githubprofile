@@ -149,7 +149,7 @@ formSubmitted.addEventListener("submit", async (e) => {
             console.error(error);
         }finally{
             setTimeout(() => {
-                inputSelected.value="";
+                // inputSelected.   value="";
                 inputSelected.style.display = "block";
             }, 500);
         }
